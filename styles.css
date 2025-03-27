@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002b80;
+    padding: 10px 20px;
+}
+.logo img {
+    width: 100px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    background-color: #ffcc00;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #e6b800;
+}
+.makaveri {
+    text-align: center;
+    background-color: #002b80;
+    color: white;
+    padding: 20px;
+}
+.makaveri h1 .makaveri h2 {
+    margin: 0;
+}
+.pac {
+    color: #ffcc00;
+}
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.main-pics img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.side-pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.side-pics img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+}
+.subscribe {
+    background-color: #002b80;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footerpush{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/* Hover Effects on Social Media Icons */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.4s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.4s;
+}
+.University-logo img {
+    width: 150px;
+    margin-top: 10px;
+}
